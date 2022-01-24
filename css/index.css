@@ -4868,6 +4868,35 @@ mjx-container[display],
 #article-container .aplayer ul li:before {
   content: none;
 }
+[data-theme="dark"] #web_bg {
+  background: url(https://i.postimg.cc/nrthwQfm/986833.jpg);
+  background-attachment: local;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://i.postimg.cc/4yxH1SCM/QQ-20220124123721.jpg) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://i.postimg.cc/BbQ9QRkm/957973.jpg) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
 #article-container .btn-center {
   margin: 0 0 20px;
   text-align: center;
